@@ -1,4 +1,4 @@
-# Flappy Learning Mod ([Demo])
+# Flappy Learning Mod ([Demo](https://pixmuffin.github.io/flappy-learning-mod/))
 ## Folked from Flappy Learning ([Orginal Demo](http://xviniette.github.io/FlappyLearning/))
 
 Original Flappy Learning takes around 30 seconds to made perfect, so make a extreme version to see how it does in more extreme level.
