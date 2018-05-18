@@ -7,6 +7,6 @@ Original Flappy Learning takes around 30 seconds to made perfect, so make a extr
 * The height of the gap is now at a random height, sometimes wide and sometimes narrow.
 * Population set to 80 instead
 * Closer pipes intervals (original rate is 3, we set to 2)
-* Wider piper (50px to 65px)
+* Wider piper (50px to 55px)
 * (Random intervals) seems there is a bug if interval is random
 
