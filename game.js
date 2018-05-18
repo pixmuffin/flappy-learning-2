@@ -100,7 +100,7 @@ var Pipe = function(json){
 	this.y = 0;
 	this.width = 65; //Pole width, make it wider, Original is 50
 	this.height = 40;
-	this.speed = 2.2; // Pole interval, Change to faster, original is 3
+	this.speed = 2.8; // Pole interval, Change to faster, original is 3
 
 	this.init(json);
 }
