@@ -57,7 +57,7 @@ var Bird = function(json){
 	this.height = 30;
 
 	this.alive = true;
-	this.gravity = 0;
+	this.gravity = 0; //0
 	this.velocity = 0.3; //0.3
 	this.jump = -6; //-6
 
@@ -98,9 +98,9 @@ Bird.prototype.isDead = function(height, pipes){
 var Pipe = function(json){
 	this.x = 0;
 	this.y = 0;
-	this.width = 55; //Pole width, make it wider, Original is 50
+	this.width = 65; //Pole width, make it wider, Original is 50
 	this.height = 40;
-	this.speed = 2; // Pole interval, Change to faster, original is 3
+	this.speed = 2.2; // Pole interval, Change to faster, original is 3
 
 	this.init(json);
 }
@@ -201,8 +201,8 @@ Game.prototype.update = function(){
 	}
 
 	if(this.interval == 0){
-		var deltaBord = 100; //original is 50
-		var pipeHoll = Math.floor((Math.random() * 120) + 90); //This is the width for the bird to pass thru, original is 120
+		var deltaBord = 50; //original is 50
+		var pipeHoll = Math.floor((Math.random() * 120) + 99); //This is the width for the bird to pass thru, original is 120
 		var hollPosition = Math.round(Math.random() * (this.height - deltaBord * 2 - pipeHoll)) +  deltaBord;
 		this.pipes.push(new Pipe({x:this.width, y:0, height:hollPosition}));
 		this.pipes.push(new Pipe({x:this.width, y:hollPosition+pipeHoll, height:this.height}));
