@@ -98,9 +98,9 @@ Bird.prototype.isDead = function(height, pipes){
 var Pipe = function(json){
 	this.x = 0;
 	this.y = 0;
-	this.width = 65; //Pole width, make it wider, Original is 50
+	this.width = 55; //Pole width, make it wider, Original is 50
 	this.height = 40;
-	this.speed = 2.8; // Pole interval, Change to faster, original is 3
+	this.speed = 3; // Pole interval, Change to faster, original is 3
 
 	this.init(json);
 }
@@ -287,7 +287,7 @@ window.onload = function(){
 
 	var start = function(){
 		Neuvol = new Neuroevolution({
-			population:80, //Bird Threads, Original is 50
+			population:50, //Bird Threads, Original is 50
 			network:[2, [2], 1],
 		});
 		game = new Game();
