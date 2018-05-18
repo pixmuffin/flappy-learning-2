@@ -98,7 +98,7 @@ Bird.prototype.isDead = function(height, pipes){
 var Pipe = function(json){
 	this.x = 0;
 	this.y = 0;
-	this.width = 65; //Pole width, make it wider, Original is 50
+	this.width = 55; //Pole width, make it wider, Original is 50
 	this.height = 40;
 	this.speed = 2; // Pole interval, Change to faster, original is 3
 
