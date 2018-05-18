@@ -32,7 +32,7 @@ var Neuroevolution = function (options) {
 		// various factors and parameters (along with default values).
 		network: [1, [1], 1], // Perceptron network structure (1 hidden
 		// layer).
-		population: 80, // Population by generation.
+		population: 50, // Population by generation.
 		elitism: 0.2, // Best networks kepts unchanged for the next
 		// generation (rate).
 		randomBehaviour: 0.2, // New random networks for the next generation
