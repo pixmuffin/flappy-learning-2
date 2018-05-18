@@ -202,7 +202,7 @@ Game.prototype.update = function(){
 
 	if(this.interval == 0){
 		var deltaBord = 100; //original is 50
-		var pipeHoll = Math.floor((Math.random() * 150) + 79); //This is the width for the bird to pass thru, original is 120
+		var pipeHoll = Math.floor((Math.random() * 120) + 90); //This is the width for the bird to pass thru, original is 120
 		var hollPosition = Math.round(Math.random() * (this.height - deltaBord * 2 - pipeHoll)) +  deltaBord;
 		this.pipes.push(new Pipe({x:this.width, y:0, height:hollPosition}));
 		this.pipes.push(new Pipe({x:this.width, y:hollPosition+pipeHoll, height:this.height}));
